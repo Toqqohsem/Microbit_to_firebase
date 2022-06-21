@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- // Import the functions you need from the SDKs you need -->
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    <!-- // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <!-- // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional -->
+    const firebaseConfig = {
+      apiKey: "AIzaSyBpoAOK2PnM7g6ioFAyQ_FT9M_gHSQTUQ4",
+      authDomain: "micro-bit-to-firebase.firebaseapp.com",
+      databaseURL: "https://micro-bit-to-firebase-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "micro-bit-to-firebase",
+      storageBucket: "micro-bit-to-firebase.appspot.com",
+      messagingSenderId: "324324823325",
+      appId: "1:324324823325:web:602b88e0b29357476711f4",
+      measurementId: "G-T9NP78NZL9"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</head>
+<body>
+   
+</body>
+</html>
